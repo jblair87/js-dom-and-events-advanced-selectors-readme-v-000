@@ -1,19 +1,19 @@
- $(document).ready(function paragraphSelector(){
-  $('p')[0];
-});
+function paragraphSelector(){
+ return $('p')[0];
+}
 
-$(document).ready(function lastImageSelector(){
-  $('div img:last');
-});
+function lastImageSelector(){
+  return $('div img:last');
+}
 
-$(document).ready(function ninjaBabySelector(){
-  $('#baby-ninja');
-});
+function ninjaBabySelector(){
+  return $('#baby-ninja');
+}
 
-$(document).ready(function divSelector(){
-  $('div.pics');
-});
+function divSelector(){
+  return $('div.pics');
+}
 
-$(document).ready(function firstListItem(){
-  $('ul#pic-list li:first-child');
-});
+function firstListItem(){
+   return $('ul#pic-list li:first-child');
+}
