@@ -2,18 +2,18 @@
   $('p')[0];
 });
 
-function lastImageSelector(){
+$(document).ready(function lastImageSelector(){
   $('div img:last');
-}
+});
 
-function ninjaBabySelector(){
+$(document).ready(function ninjaBabySelector(){
   $('#baby-ninja');
-}
+});
 
-function divSelector(){
+$(document).ready(function divSelector(){
   $('div.pics');
-}
+});
 
-function firstListItem(){
+$(document).ready(function firstListItem(){
   $('ul#pic-list li:first-child');
-}
+});
