@@ -1,4 +1,4 @@
-class Selectors 
+$(document).ready(
 function paragraphSelector(){
   $('p');
 }
